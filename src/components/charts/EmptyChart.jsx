@@ -1,7 +1,7 @@
 import React from "react";
 
 function EmptyChart() {
-    const img = "/src/assets/transactions.svg"
+    const img = "/PocketPlan-expense-tracker/transactions.svg"
   return (
     <div className="emptychart">
       <img src={img} alt="Empty Chart" />
