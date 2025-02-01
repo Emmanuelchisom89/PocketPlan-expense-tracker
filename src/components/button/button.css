@@ -1,0 +1,40 @@
+.btn {
+    color: var(--theme1);
+    text-align: center;
+    width: 100%;
+    margin: 1rem 0 0 0;
+    padding: .75rem .5rem !important;
+    background-color: var(--white);
+    border: 1px solid var(--theme1);
+    border-radius: .25rem;
+    cursor: pointer;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    height: auto !important;
+    font-size: .9rem;
+}
+
+.btn:hover {
+    background-color: var(--theme1);
+    color: var(--white);
+    transition: all .3s;
+}
+
+.btn-blue {
+    background-color: var(--theme1);
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: var(--white) !important;
+    color: var(--theme1) !important;
+    transition: all .3s;
+}
+
+@media only screen and (max-width: 500px) {
+.btn {
+    padding: .6rem .5rem !important;
+}
+}

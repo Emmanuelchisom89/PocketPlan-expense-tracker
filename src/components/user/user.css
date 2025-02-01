@@ -1,0 +1,73 @@
+.profile {
+    display: flex;
+    width: 90%;
+    height: 22vh;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.greetings h2, .greeting {
+    display: flex;
+    align-items: center;
+    color: var(--black);
+}
+
+.greetings span {
+    margin-left: 10px;
+}
+
+.greeting img {
+    width: 90px;
+    margin-right: 8px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .profile {
+        height: 15vh;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    .profile {
+        height: 13vh;
+    }
+
+    h2 {
+        font-size: 18.5px;
+    }
+
+    .greeting img {
+        width: 50px !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .profile {
+        width: 95%;
+    }
+
+    .greetings h2, .greeting {
+        font-size: 17px;
+    }
+    
+    .greeting img {
+        width: 40px !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .greetings h2,
+    .greeting {
+        font-size: 16px;
+    }
+
+    .greeting img {
+        width: 35px !important;
+    }
+
+    .PrivateSwitchBase-input {
+        width: 16px !important;
+    }
+}

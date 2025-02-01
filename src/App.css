@@ -1,0 +1,244 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100wv;
+  min-height: 100vh;
+}
+
+.chart-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  height: auto;
+  margin: 2rem auto;
+}
+
+.chart-wrapper h1 {
+  color: var(--black);
+}
+
+.analytics, .pi-chart {
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background-color: var(--card);
+}
+
+.analytics {
+  width: 650px;
+}
+
+.pi-chart {
+  width: 400px;
+}
+
+.chart-wrapper h1 {
+  margin-top: 0;
+}
+
+.pi-chart {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.chart-container, .line-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.line-container {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+.chart-wrapper {
+  flex-direction: column;
+  padding: 0;
+}
+.analytics,
+.pi-chart {
+  max-width: 100%;
+}
+
+.line-container, .chart-container {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+}
+@media (max-width: 768px) {
+  .chart-container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .chart-container {
+    max-width: 300px;
+  }
+}
+
+.emptychart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  color: var(--black);
+}
+
+.emptychart img {
+  width: 350px;
+  margin: 1rem;
+}
+
+.emptychart p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.ant-modal-content {
+  width: 420px;
+  margin: 0 auto;
+  color: var(--black);
+  background-color: var(--card) !important;
+}
+
+.ant-modal-title, 
+.ant-input, .ant-picker, 
+.ant-select-selector, 
+.ant-select-selection-placeholder, 
+.ant-radio-button-wrapper {
+  color: var(--black) !important;
+  background-color: var(--card) !important;
+}
+
+.ant-spin-container {
+  width: 100% !important;
+}
+
+.ant-form-item-required {
+  color: var(--black) !important;
+}
+
+.ant-table, .ant-table-expanded-row-fixed {
+  background-color: var(--card) !important;
+  color: var(--black) !important;
+}
+
+.ant-empty-description {
+  color: var(--tableempty) !important;
+}
+
+.ant-table-thead .ant-table-cell {
+  background-color: var(--tablehead) !important;
+  color: var(--black) !important;
+}
+
+.ant-table-tbody .ant-table-row:hover>td {
+  background-color: var(--tablehead) !important;
+}
+
+
+.ant-pagination-prev,
+.ant-pagination-item,
+.ant-pagination-next {
+  color: var(--theme1) !important;
+  background-color: var(--card) !important;
+}
+
+.ant-pagination-item a,
+.ant-pagination-item-link {
+  color: var(--black) !important;
+}
+
+@media only screen and (max-width: 750px) {
+  .main {
+      display: flex;
+      flex-direction: column;
+      min-height: 90vh;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+  .analytics,
+    .pi-chart {
+      width: 95%;
+  }
+
+  .ant-table-row,
+  .ant-table-thead,
+  .ant-radio-button-wrapper
+  .ant-pagination-prev,
+  .ant-pagination-item,
+  .ant-pagination-next{
+    font-size: 13px !important;
+  }
+
+  .my_table {
+    padding: 1rem !important;
+  }  
+
+    .ant-table-wrapper {
+      width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+  .ant-modal-content {
+      width: 320px;
+    }
+
+  .emptychart img {
+    width: 300px;
+  }
+
+    .ant-table-wrapper {
+      width: 100% !important;
+    }
+
+  .ant-radio-button-wrapper {
+      font-size: 12px !important;
+  }
+
+  .ant-radio-button {
+    padding: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .css-rehya9-MuiSwitch-root {
+    width: 45px !important;
+    height: 33px !important;
+  }
+    
+  .css-17jyosd-MuiSwitch-thumb {
+    width: 15px !important;
+    height: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .emptychart img {
+      width: 250px;
+  }
+
+  .emptychart p {
+      font-size: 1rem;
+  }
+  .ant-radio-button-wrapper {
+      font-size: 11.5px !important;
+  }
+}
+
+@media only screen and (max-width: 389px) {
+  .css-rehya9-MuiSwitch-root {
+      display: none !important;
+  }
+}

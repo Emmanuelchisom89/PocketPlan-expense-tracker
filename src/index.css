@@ -1,0 +1,82 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@400;500;600&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
+
+:root {
+  --theme: #3A6DFF;
+  --theme1: #3A6DFF;
+  --theme2: #6DC3F4;
+  --white: #fff;
+  --card: #fff;
+  --black: #000;
+  --grey: #939396;
+  --tablehead: #FAFAFA;
+  --tableempty: #8C8C8C;
+  --shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+}
+
+[data-theme="light"] {
+  --white: #ffffff;
+  --card: #fff;
+  --chart: #CECECE;
+  --black: #111;
+  --grey: #888;
+  --menu: #757575;
+  --darkgrey: #444;
+  --tablehead: #FAFAFA;
+}
+
+[data-theme="dark"] {
+  --theme: #1E293B;
+  --theme1: #0C8CE9;
+  --white: #2C2C2C;
+  --card: #383838;
+  --chart: #fff;
+  --black: #ccc;
+  --grey: #888;
+  --darkgrey: #ccc;
+  --shadow: none;
+  --border: 0;
+  --tablehead: #2F2F2F;
+  --tableempty: #ccc;
+  --menu: #ccc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--white);
+}
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  padding: .5rem;
+  color: var(--black);
+}
+
+footer p {
+  text-align: center;
+}

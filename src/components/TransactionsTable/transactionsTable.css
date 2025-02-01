@@ -1,0 +1,107 @@
+.transaction-table {
+    padding: 0rem 2rem;
+}
+
+.tab-inputs {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.input-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .5rem;
+    width: 100%;
+    box-shadow: var(--shadow);
+    border-radius: .5rem;
+    padding: 0 .5rem;
+    background-color: var(--card);
+}
+
+.input-flex svg {
+    color: var(--black) !important;
+    font-size: 17.5px;
+}
+
+.input-flex input {
+    width: 100%;
+    padding: .6rem;
+    border: 0;
+    background-color: var(--card);
+}
+
+.input-flex input:focus {
+    outline: none;
+}
+
+.select-input {
+    align-items: center;
+    border-radius: .5rem !important;
+    box-shadow: var(--shadow);
+    display: flex;
+    margin-right: 10;
+    padding: 1.1rem;
+    width: 30%;
+    background-color: var(--card);
+}
+
+.select-input > div {
+    border: 0px !important;
+}
+
+.my_table {
+    box-shadow: var(--shadow);
+    margin-bottom: 4rem;
+    padding: 1rem 2rem;
+    border-radius: .5rem !important;
+    background-color: var(--card);
+}
+
+.table-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.table-heading-btn {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 400px;
+    margin-top: -1rem;
+}
+
+.table-heading h2 {
+    color: var(--black);
+}
+
+.table_data {
+    width: 100%;
+    overflow-x: auto;
+}
+
+
+@media only screen and (max-width: 950px) {
+    .table-heading-btn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+.table-heading {
+    flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+}
+
+.transaction-table {
+    padding: 0rem 1rem;
+    width: 100%;
+}
+}

@@ -1,0 +1,42 @@
+.signup-wrapper {
+    width: 70%;
+    max-width: 500px;
+    height: auto;
+    box-shadow: var(--shadow);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+}
+
+.signup-wrapper span {
+    color: var(--theme1);
+}
+
+.signup-wrapper form {
+    margin-top: 2rem;
+}
+
+.sign_title {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.form-p {
+    text-align: center;
+    font-size: .95rem;
+}
+
+.form-p a {
+    color: var(--theme1);
+}
+
+.form-p a:hover {
+    opacity: .8;
+    transition: all .3s;
+}
+
+
+@media only screen and (max-width: 500px) {
+.signup-wrapper {
+    width: 90%;
+}
+}

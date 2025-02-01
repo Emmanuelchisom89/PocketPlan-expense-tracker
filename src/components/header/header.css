@@ -1,0 +1,109 @@
+.home_header {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.bank_logo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.bank_logo img {
+    width: 50px;
+    height: auto;
+}
+
+.bank_logo h5 {
+    min-width: 120px;
+    font-size: 1.1rem;
+    align-items: baseline;
+    font-weight: bolder;
+    color: var(--theme1);
+    margin: 0;
+}
+
+.home_nav_menu {
+    width: 50%;
+}
+
+.nav_list ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nav_list ul a:hover {
+    color: #3A6DFF;
+}
+
+.drawer {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .home_header {
+        width: 90%;
+    }
+
+    .navbar {
+        padding: 1.5rem;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    .bank_logo h5 {
+        font-size: 1rem;
+    }
+
+    .link {
+        font-size: .9rem;
+        color: var(--menu) !important;
+    }
+
+    .home_nav_menu {
+        display: none;
+    }
+
+    .drawer {
+        display: block;
+    }
+
+    .drawer-div {
+        width: 40vw;
+        height: 100vh;
+        background: var(--white);
+        padding: 2rem 1.5rem;
+    }
+
+    .drawer-div a {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        color: var(--grey);
+        font-weight: bold;
+    }
+
+    .link-i {
+        font-size: 1.3rem !important;
+    }
+}
+
+ @media only screen and (max-width: 450px) {
+    .home_header {
+        width: 93%;
+    }
+
+    .bank_logo h5 {
+        font-size: 15px;
+    }
+} 
