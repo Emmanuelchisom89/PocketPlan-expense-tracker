@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     background-color: var(--theme);
-    padding: .5rem 1.5rem;
+    padding: .75rem 1.5rem;
     z-index: 1000;
 }
 
@@ -98,6 +98,12 @@
 
     100% {
         transform: scale(1);
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .dashheader {
+        padding: .5rem 1.5rem;
     }
 }
 

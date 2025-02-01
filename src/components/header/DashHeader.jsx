@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import "./dashhead.css";
-import { auth } from '../../firebase';
-import { useAuthState } from 'react-firebase-hooks/auth';
 import { getAuth, signOut } from "firebase/auth";
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import { Link, useNavigate } from 'react-router-dom';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import { auth } from '../../firebase';
+
 
 const DashHeader = () => {
     const [user, loading] = useAuthState(auth);
@@ -37,7 +38,7 @@ const DashHeader = () => {
         <div className='dashheader'>
             <div className="bank_logo dash-logo">
                 <Link to="/">
-                    <img src="/chisomweb.png" alt="" />
+                    <img src="/PocketPlan-expense-tracker/chisomweb.png" alt="" />
                     <h5 className='dash_h5'>PocketPlan</h5>
                 </Link>
             </div>

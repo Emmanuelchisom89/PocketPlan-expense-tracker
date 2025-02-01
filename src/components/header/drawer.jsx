@@ -8,8 +8,6 @@ import CompareArrowsRoundedIcon from "@mui/icons-material/CompareArrowsRounded";
 import SpaceDashboardRoundedIcon from "@mui/icons-material/SpaceDashboardRounded";
 import Switch from "@mui/material/Switch";
 import { Link } from "react-router-dom";
-import { auth } from '../../firebase';
-import { useAuthState } from 'react-firebase-hooks/auth';
 
 export default function AnchorTemporaryDrawer({ user, loading }) {
   const [open, setOpen] = React.useState(false);

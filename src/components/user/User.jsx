@@ -46,25 +46,25 @@ function getGreeting() {
   const hours = now.getHours(); 
   const morning =  (
       <span className="greeting">
-        <img src="/morning.png" alt="Morning" />
+        <img src="/PocketPlan-expense-tracker/morning.png" alt="Morning" />
         Good Morning
       </span>
     );
   const afternoon =  (
       <span className="greeting">
-        <img src="/sun.png" alt="Morning" />
+        <img src="/PocketPlan-expense-tracker/sun.png" alt="Afternoon" />
         Good Afternoon
       </span>
     );
   const evening =  (
       <span className="greeting">
-        <img src="/evening.png" alt="Morning" />
+        <img src="/PocketPlan-expense-tracker/evening.png" alt="Evening" />
         Good Evening
       </span>
     );
   const night =  (
       <span className="greeting">
-        <img src="/night.png" alt="Morning" />
+        <img src="/PocketPlan-expense-tracker/night.png" alt="Night" />
         Good Night
       </span>
     );

@@ -9,7 +9,7 @@ const Button = ({ text, onClick, blue, withGoogleLogo, disabled }) => {
         >
         {withGoogleLogo && (
             <img
-                src="/google-icon.svg"
+                src="/PocketPlan-expense-tracker/google-icon.svg"
                 alt="Google Icon"
                 className="google-icon"
             />

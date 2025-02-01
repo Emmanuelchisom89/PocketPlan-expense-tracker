@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <header className='home_header'>
         <div className="bank_logo">
-            <Link href="./"><img src="/chisomweb.png" alt=""/>
+            <Link href="./"><img src="/PocketPlan-expense-tracker/chisomweb.png" alt=""/>
                 <h5>PocketPlan</h5>
             </Link>
         </div>
