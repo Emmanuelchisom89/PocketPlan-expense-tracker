@@ -1,5 +1,6 @@
 {
   "name": "pocketplan",
+  "homepage": "https://Emmanuelchisom89.github.io/PocketPlan-expense-tracker",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@ant-design/charts": "^2.2.6",
