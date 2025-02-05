@@ -7,6 +7,7 @@
   --theme: #3A6DFF;
   --theme1: #3A6DFF;
   --theme2: #6DC3F4;
+  --link: #551A8B;
   --white: #fff;
   --card: #fff;
   --black: #000;
@@ -20,6 +21,7 @@
   --white: #ffffff;
   --card: #fff;
   --chart: #CECECE;
+  --link: #551A8B;
   --black: #111;
   --grey: #888;
   --menu: #757575;
@@ -41,6 +43,7 @@
   --tablehead: #2F2F2F;
   --tableempty: #ccc;
   --menu: #ccc;
+  --link: #ccc;
 }
 
 * {

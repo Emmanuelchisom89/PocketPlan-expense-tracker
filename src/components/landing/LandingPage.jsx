@@ -22,7 +22,7 @@ const LandingPage = () => {
             </div>
 
             <div className="v_img">
-                <img src="/PocketPlan-expense-tracker/7176685.jpg" alt=""/>
+                <img src="/PocketPlan-expense-tracker/pp_vector.png" alt=""/>
             </div>
 
         </div>

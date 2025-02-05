@@ -38,10 +38,16 @@
     list-style-type: none;
     font-weight: bold;
     margin: 0;
+    color: var(--link);
+}
+
+.nav_list ul a {
+    color: var(--link) !important;
 }
 
 .nav_list ul a:hover {
-    color: #3A6DFF;
+/*     color: #3A6DFF;
+ */    opacity: .9;
 }
 
 .drawer {
